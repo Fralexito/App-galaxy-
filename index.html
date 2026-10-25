@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050816">
+<title>Phoenix Galaxy</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icono-180.png">
+<link rel="icon" href="./icono-192.png">
+</head>
+<body>
+<header class="top">
+  <h1>PHOENIX <span class="grad">GALAXY</span></h1>
+  <button id="btn-tema" class="chip" aria-label="Cambiar liga">Galaxy</button>
+</header>
+<main id="vista" aria-live="polite"></main>
+<nav class="tabs" id="tabs">
+  <button data-v="liga" class="on"><i>🏆</i>Liga</button>
+  <button data-v="torneos"><i>⚔️</i>Torneos</button>
+  <button data-v="noticias"><i>📰</i>Noticias</button>
+  <button data-v="avisos"><i>🔔</i>Avisos<b id="punto" hidden></b></button>
+</nav>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
